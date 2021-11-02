@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+	<div class="header__container _container">
+		<div class="header__body">
+			<div class="header__main"> 
+				<a href="" class="header__logo">Logo</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a href="" class="menu__link">Пункт 1 </a></li>
+							<li><a href="" class="menu__link">Пункт 2 </a></li>
+							<li><a href="" class="menu__link">Пункт 3 </a></li>
+							<li><a href="" class="menu__link">Пункт 4 </a></li>
+							<li><a href="" class="menu__link"> </a></li>
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="header__name"> Название сайта  </div>
+			<div class="header__btns">
+				<div class="header__btn">
+					<a href="#login" class="header__login _popup-link">Войти</a>
+				</div>
+			</div>
+			<div class="icon-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+</header>
+			<!-- <main class="page">
+				<div class="select">
+					<div class="select__container _container">
+						<div class="select__one">
+							<select name="form[]" class="form">
+								<option value="1" selected="selected">Пункт №1</option>
+								<option value="2">Пункт №2</option>
+								<option value="3">Пункт №3</option>
+								<option value="4">Пункт №4</option>
+							</select>
+						</div>
+						<div class="select__two">
+							<select name="form[]" class="form">
+								<option value="1" selected="selected">Пункт №1</option>
+								<option value="2">Пункт №2</option>
+								<option value="3">Пункт №3</option>
+								<option value="4">Пункт №4</option>
+							</select>
+						</div>
+					
+					</div>
+					
+					<div class="map">
+						<div class="map__container ">
+							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9f68a412d84ec9279e41d6dc011f95f43741f544d0a28c52b8115a2243108ee7&amp;width=100%25&amp;&amp;lang=ru_RU&amp;scroll=true"></script>
+						</div>
+					</div>
+				</div>
+			</main> -->
+			<footer class="footer">
+	<div class="footer__container _container">
+
+	</div>
+</footer>
+		</div>
+		<div class="popup popup_login">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<div class="popup__container">
+				<div class="block"> 
+					<section class="block__item block-item">
+						<h2 class="block-item__title">У вас уже есть аккаунт?</h2>
+						<button class="block-item__btn signin-btn">Войти</button>
+					</section>
+					<section class="block__item block-item">
+						<h2 class="block-item__title">У вас нет аккаунта?</h2>
+						<button class="block-item__btn signup-btn">Зарегистрироваться</button>
+					</section>
+				</div>
+				<div class="form-box">
+					 <form action="#" class="form form_signin">
+						 <div class="form__line">
+							 <label for="inp" class="form__label">Вход</label>
+							 <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Логин" class="input">
+							 <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Пароль" class="input">
+
+
+						 </div>
+						 <button type="submit" class="form__btn btn">Войти</button>
+						 <p>
+							 <a href="" class="form__forgot">Востановить пароль</a>
+						 </p>
+					 </form>
+
+					 <form action="#" class="form form_signup">
+						<div class="form__line">
+							<label for="inp" class="form__label">Регистрация</label>
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Логин" class="input">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Email" class="input">
+
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Пароль" class="input">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Повтарите пароль" class="input">
+
+
+
+						</div>
+						<button type="submit" class="form__btn form__btn_signup btn">Зарегистрироваться </button>
+						
+					</form>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
